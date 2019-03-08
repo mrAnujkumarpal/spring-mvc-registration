@@ -3,36 +3,7 @@
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Build Status](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample)
-[![star this repo](http://githubbadges.com/star.svg?user=PanagiotisDrakatos&repo=SpringBoot-Registration-Login-ThePerfectExample&style=flat&color=fff&background=007ec6)](https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample)
-[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg)](https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/issues)
-[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg)](https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/pulls)
 
-
-## Table of Contents :smile:
-
-  - [Basic Overview](#basic-overview)
-  - [Why should i use it?](#why-should-i-use-it)
-  - [Deployment](#deployment)
-  - [Installation](#installation)
-      - [Build and Deploy](#build-and-deploy)
-      - [Install MySQL](#install-mysql)
-      - [Configure MySQL](#configure-mysql)
-  - [Usage](#usage)
-     - [Basic Functionality](#basic-functionality)
-         - [SpringDataJPA](#springdatajpa)
-     - [Security Perspective](#security-perspective)
-         - [AuthenticationProviders](#authenticationproviders)
-         - [PasswordEncoding](#passwordencoding)
-         - [PersistentRememberMe](#persistentrememberme)
-         - [Session](#session)
-  - [Support](#support)
-  - [Acknowledgments](#acknowledgments)
-  - [License](#license)
-  - [Contacts](#contacts)
-  - [Contributing](#contributing)
-  - [Donate](#donate)
 
 
 # Basic Overview
@@ -63,25 +34,6 @@ In order to deploy this projects, you need to perform some steps:
      * <a href="/guides/gs/intellij-idea/">IntelliJ IDEA</a>
      
 # Installation
-
-
-## Install MySQL
- For testing purposes i use the <a href="uniformserver">UniformServer</a>, a lightweight solution WAMP Servr solution.So lets go to start.
- The Uniform Server Zeros base component is the controller application. Download and extract this base component first.
-   * Download and save the latest controller file (<a href="https://sourceforge.net/projects/miniserver/files/Uniform%20Server%20ZeroXIII/">ZeroXI_Controller_latest_Version.exe<a/>) to drive C:   
-   * The file is a self-extracting archive, double click to run the extractor.
-   * The installation (extraction) defaults to creating folder `C:\UniServerZ` ,
-   with the folder  structure as shown on the right.
-  
-  The UniServerZ folder contains file UniController.exe which opens The Uniform Server's control application for running the servers as a standard program. simply run it.
-  
-  
-  
-  UniController is shown on the above.
-   1. Click Start Apache button. Starts the Apache server.
-   2. Click Start MySQL button. Starts the MySQL server.
-   
-We dont care about to start Apache because spring framework uses Embedded Tomcat which is included in the project so we will not need it. After that, simply click Start Mysql and set Mysql Pasword and mysql will be ready for usage.
 
 ## Configure MySQL
 In order to create, execute, and optimizing SQL queries for this project i am using <a href="https://www.mysql.com/products/workbench/">MySQLWorkbench<a/> but you can also use whatever tool you want, as well as mysql command  if you feel comfortable with it.
