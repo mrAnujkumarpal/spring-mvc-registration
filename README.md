@@ -292,10 +292,10 @@ public class SessionListenerWithMetrics extends HttpSessionEventPublisher {
  }
 ```
 
-Don't hesitate to ask me whatever you want. 
-contact with me ::: 8095446907
 
-# Contributing
+
+# Don't hesitate to ask me whatever you want. 
+# contact with me ::: 8095446907
 ___
  2. Create your feature branch: git checkout -b my-new-feature
  3. Commit your changes: git commit -am 'Add some feature'
