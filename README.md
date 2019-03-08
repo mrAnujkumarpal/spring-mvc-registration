@@ -75,7 +75,7 @@ In order to deploy this projects, you need to perform some steps:
   
   The UniServerZ folder contains file UniController.exe which opens The Uniform Server's control application for running the servers as a standard program. simply run it.
   
-  <p align="center"><img width=45% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/Uniserver.png"></p>
+  
   
   UniController is shown on the above.
    1. Click Start Apache button. Starts the Apache server.
@@ -183,6 +183,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ## SecurityPerspective
 
 Here in this content we will define the security matters which resulting and we will make a brief explanation from the security perspective about how we solve these ones.
+
 ### AuthenticationProviders
 
    An AuthenticationProvider is an abstraction for fetching user information from a specific repository (like a database, LDAP, custom third party source, etc. ). It uses the fetched user information to validate the supplied credentials. Simply put, when multiple authentication providers are defined, the providers will be queried in the order they’re declared. 
@@ -339,40 +340,11 @@ public class SessionListenerWithMetrics extends HttpSessionEventPublisher {
  }
 ```
 
-## Support
-___
-
-Please [open an issue](https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/issues) for support.
-
-
-
-
-
-# Acknowledgments
-___
-
-The Pocket WAR uses the following open source software:
-
-- [SpringFramework](https://projects.spring.io/spring-framework/) for creating a comprehensive programming and configuration model for modern Java-based enterprise applications
-- [Bootstrap](https://getbootstrap.com/) for creating Build responsive projects with the world's most popular front-end component library
-- [jquery](https://jquery.com/) for manipulation, event handling, animation that works across a multitude of browsers
-
-
-
-# License
-___
-<p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/blob/master/LICENSE.md">Licence</a> file for details</p>
-
-
-# Contacts
-
-Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects :kissing_heart: . Follow me or Connect me via <a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
+Don't hesitate to ask me whatever you want. 
+contact with me ::: 8095446907
 
 # Contributing
 ___
-Please contribute using [Github Flow](https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql). Create a branch, add commits, and [open a pull request](https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/pulls).
-
- 1. Fork it: git clone https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql.git
  2. Create your feature branch: git checkout -b my-new-feature
  3. Commit your changes: git commit -am 'Add some feature'
  4. Push to the branch: git push origin my-new-feature
@@ -381,6 +353,3 @@ Please contribute using [Github Flow](https://github.com/PanagiotisDrakatos/Spri
  
  
  
- # Donate
- If you have found this project useful, please consider making a donation     
-  [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Drakatos)
